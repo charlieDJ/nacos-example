@@ -1,4 +1,4 @@
-package com.cloud.consumerexample;
+package com.cloud.consumer;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;

@@ -1,11 +1,13 @@
-package com.cloud.configexample;
+package com.cloud.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.ConfigurableApplicationContext;
 
 import java.util.concurrent.TimeUnit;
 
+@EnableDiscoveryClient
 @SpringBootApplication
 public class ConfigExampleApplication {
 
