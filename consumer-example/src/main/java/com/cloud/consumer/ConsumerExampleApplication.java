@@ -36,7 +36,7 @@ public class ConsumerExampleApplication {
 
         @RequestMapping(value = "/echo/{str}", method = RequestMethod.GET)
         public String echo(@PathVariable String str) {
-            return restTemplate.getForObject("http://service-provider/echo/" + str, String.class);
+            return restTemplate.getForObject("http://service-provider/provider/echo/" + str, String.class);
         }
     }
 }
